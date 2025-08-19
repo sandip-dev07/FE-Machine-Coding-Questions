@@ -3,6 +3,7 @@ import MachineCodingLists from "@/components/machine-coding-lists";
 import Lottie from "lottie-react";
 import Bird from "@/assets/bird.json";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -48,10 +49,12 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
           >
-            <motion.button className="px-5 py-2 text-white bg-gray-900 rounded-xl text-sm shadow-md hover:bg-gray-800 transition flex items-center gap-3 cursor-pointer">
-              <IoLogoGithub size={20} />
-              GitHub
-            </motion.button>
+            <Link target="_blank" to="https://github.com/sandip-dev07/FE-Machine-Coding-Questions">
+              <motion.button className="px-5 py-2 text-white bg-gray-900 rounded-xl text-sm shadow-md hover:bg-gray-800 transition flex items-center gap-3 cursor-pointer">
+                <IoLogoGithub size={20} />
+                GitHub
+              </motion.button>
+            </Link>
             <motion.button className="px-5 py-2 text-gray-900 border bg-zinc-50 border-gray-300 rounded-xl text-sm hover:bg-gray-100 transition cursor-pointer">
               Get Started
             </motion.button>

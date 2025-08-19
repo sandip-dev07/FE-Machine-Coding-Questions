@@ -1,6 +1,6 @@
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { questions } from "@/constants/questions";
-import { IoCodeSharp } from "react-icons/io5";
+// import { IoCodeSharp } from "react-icons/io5";
 import { motion } from "motion/react";
 
 export default function MachineCodingLists() {
@@ -24,7 +24,7 @@ export default function MachineCodingLists() {
         {questions.map((item) => (
           <motion.div
             key={item.id}
-            className="p-4 py-[18px] rounded-2xl border border-gray-200 bg-white transition-all duration-200 hover:shadow-[0_0_16px_rgba(0,0,0,0.07)] cursor-pointer"
+            className="p-3 sm:p-4 py-[18px] rounded-2xl border border-gray-200 bg-white transition-all duration-200 hover:shadow-[0_0_16px_rgba(0,0,0,0.07)] cursor-pointer"
             initial={{ opacity: 0, y: 30, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
           >
@@ -69,9 +69,22 @@ export default function MachineCodingLists() {
                     href={item.source}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`px-3 py-1.5 rounded-[9px] text-xs border border-gray-700 font-medium transition-all flex items-center gap-1 bg-zinc-700 text-white hover:bg-zinc-800`}
+                    className={`px-3 py-1.5 rounded-[9px] text-xs border border-gray-200 font-medium transition-all flex items-center gap-1 bg-gray-100/80 text-gray-700 hover:bg-gray-200/60`}
                   >
-                    <IoCodeSharp />
+                    {/* <IoCodeSharp /> */}
+                    <svg
+                      className="w-3.5 h-3.5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
                     <span className="hidden sm:inline">Code</span>
                   </motion.a>
                 )}

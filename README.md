@@ -15,8 +15,3 @@ A collection of React-based machine coding solutions and implementations.
 npm install
 npm run dev
 ```
-
-## Projects
-
-- `/search-with-debounce` - Product search with debounced API calls
-- More coming soon...

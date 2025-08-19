@@ -5,7 +5,7 @@ export const questions = [
     question: "Search data with debounce",
     view: "/search-with-debounce",
     source:
-      "https://github.com/sandip-dev07/react-frontend",
+      "https://github.com/sandip-dev07/FE-Machine-Coding-Questions/tree/main/src/pages/search-with-debounce",
   },
   {
     id: "2",
