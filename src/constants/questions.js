@@ -9,10 +9,10 @@ export const questions = [
   },
   {
     id: "2",
-    status: false,
+    status: true,
     question: "Pagination",
     view: "/pagination",
-    source: "",
+    source: "https://github.com/sandip-dev07/FE-Machine-Coding-Questions/tree/main/src/pages/pagination",
   },
   {
     id: "3",

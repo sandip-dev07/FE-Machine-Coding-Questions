@@ -3,6 +3,7 @@ import { IoHome, IoCode } from "react-icons/io5";
 import Home from "@/pages/home/page";
 import SearchWithDebounce from "@/pages/search-with-debounce/page";
 import QuestionHeader from "@/components/question-header";
+import Paginatioin from "./pages/pagination/page";
 
 // Main App Component
 export default function App() {
@@ -20,10 +21,7 @@ export default function App() {
           />
 
           {/* Placeholder routes for other questions - you can implement these later */}
-          <Route
-            path="/pagination"
-            element={<PlaceholderPage title="Pagination" />}
-          />
+          <Route path="/pagination" element={<Paginatioin />} />
           <Route
             path="/otp-input"
             element={<PlaceholderPage title="OTP Input" />}
