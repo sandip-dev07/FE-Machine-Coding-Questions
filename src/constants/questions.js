@@ -16,18 +16,19 @@ export const questions = [
   },
   {
     id: "3",
-    status: false,
-    question: "OTP input",
-    view: "/otp-input",
+    status: true,
+    question: "Star rating",
+    view: "/star-rating",
     source: "",
   },
   {
     id: "4",
     status: false,
-    question: "Star rating",
-    view: "/star-rating",
+    question: "OTP input",
+    view: "/otp-input",
     source: "",
   },
+  
   {
     id: "5",
     status: false,
