@@ -19,7 +19,7 @@ export const questions = [
     status: true,
     question: "Star rating",
     view: "/star-rating",
-    source: "",
+    source: "https://github.com/sandip-dev07/FE-Machine-Coding-Questions/tree/main/src/pages/star-rating",
   },
   {
     id: "4",
