@@ -38,7 +38,7 @@ export default function OTPInput({ length = 5 }) {
                 onChange={(e) => handleChange(e.target.value, idx)}
                 ref={(e) => (inputRefs.current[idx] = e)}
                 onKeyDown={(e) => handleBackspace(e, idx)}
-                className="w-14 h-14 text-center text-2xl font-medium border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:outline-none transition-colors duration-200 bg-white"
+                className="w-14 h-14 text-center text-2xl font-medium border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none transition-colors duration-200 bg-white"
               />
             ))}
           </div>
