@@ -5,6 +5,7 @@ import SearchWithDebounce from "@/pages/search-with-debounce/page";
 import QuestionHeader from "@/components/question-header";
 import Paginatioin from "./pages/pagination/page";
 import StarRating from "./pages/star-rating/page";
+import OTPInput from "./pages/otp-input/page";
 
 // Main App Component
 export default function App() {
@@ -23,10 +24,7 @@ export default function App() {
 
           {/* Placeholder routes for other questions - you can implement these later */}
           <Route path="/pagination" element={<Paginatioin />} />
-          <Route
-            path="/otp-input"
-            element={<PlaceholderPage title="OTP Input" />}
-          />
+          <Route path="/otp-input" element={<OTPInput />} />
           <Route path="/star-rating" element={<StarRating />} />
           <Route
             path="/progress-bar"
