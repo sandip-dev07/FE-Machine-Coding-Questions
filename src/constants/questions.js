@@ -23,10 +23,10 @@ export const questions = [
   },
   {
     id: "4",
-    status: false,
+    status: true,
     question: "OTP input",
     view: "/otp-input",
-    source: "",
+    source: "https://github.com/sandip-dev07/FE-Machine-Coding-Questions/tree/main/src/pages/otp-input",
   },
   
   {
